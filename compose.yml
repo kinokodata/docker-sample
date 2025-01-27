@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "28000:28000"
+    volumes:
+      - ./src:/app/src

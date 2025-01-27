@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Sample</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .info {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>{{ data.message }}</h1>
+    <div class="info">
+        <p>現在時刻: {{ data.time }}</p>
+        <p>ラッキーナンバー: {{ data.random_number }}</p>
+    </div>
+</div>
+</body>
+</html>
